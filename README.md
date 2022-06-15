@@ -77,5 +77,5 @@ add_compile_options("-flegacy-pass-manager" "SHELL:-Xclang -load" "SHELL:-Xclang
 
 If the program requires shared libraries that are not present in the QEMU image of S2E, you will need to modify the S2E project's `bootstrap.sh` to use s2eget for loading these libraries into the VM before the program is launched.
 
-The running time of some programs benefits from setting the KLEE argument `--use-expr-simplifier=true` in the `s2e-config.lua` located in the S2E project's directory.
+The running time of some programs benefits from setting the KLEE argument `--use-expr-simplifier=false` in the `s2e-config.lua` located in the S2E project's directory.
 
