@@ -1,6 +1,6 @@
 # Non-invasive Characterization of Out-of-bounds Write Vulnerabilities
 
-This repository contains the code for my Master's thesis on [Non-invasive Characterization of Out-of-bounds Write Vulnerabilities](https://repository.tudelft.nl/).
+This repository contains the code for my Master's thesis on [Non-invasive Characterization of Out-of-bounds Write Vulnerabilities](https://repository.tudelft.nl/islandora/object/uuid%3Ab7743308-4a24-4e65-9d2b-12f83ad75e84).
 
 Please note that this is really only a prototype that, although having been tested somewhat during development and evaluation, probably still contains a lot of bugs. It's also ridiculously inefficient, slow and lacks a lot of features that are outlined in the thesis but not implemented. Check out the *Implementation* and *Discussion* chapters in the thesis for a non-exhaustive overview of such features or have a look at the *TODO* markers in the code.
 
